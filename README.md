@@ -4,12 +4,12 @@ LIFR is a module that generates an answer, based on a supplied text database and
 <p>They are two types of way that the software can be used to answer to a problem.</p>
 
 # search:
-
+use to generate an answer to a question
 `ask`: question to be answered by the program<br>
 `variable`: list of mathematical variables<br>
 `context`: a string of characters that can correspond to the questions and answers before or other content to give a context and help give the most satisfactory answers.<br>
 # generate:
-
+use to generate an answer by using multiple phrases that will be given by the client side code
 `creative`: to generate sentences based more or less on the given texts.<br>
 `data`: list of characheres corresponding to sentences that can be used by the template to generate an answer. ex:[["sentence1"],["sentence2"]...["sentence n"]]<br>
 `good`: Example of incorrectly formulated parts of sentences, in the form of a list of character strings.<br>
